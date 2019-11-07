@@ -16,7 +16,6 @@ Window {
     DirectLoginPage { id: directLoginPage }
     DialogsPage     { id: dialogsPage }
     TwoFactorPage   { id: twoFactorPage }
-    CaptchaPage     { id: captchaPage }
 
     StackView {
         id: mainStackView
@@ -24,5 +23,12 @@ Window {
         anchors.fill: parent
 
         initialItem: directLoginPage
+    }
+
+    CaptchaPage {
+        id: captchaPage
+
+        anchors.fill: parent
+        visible: true
     }
 }
