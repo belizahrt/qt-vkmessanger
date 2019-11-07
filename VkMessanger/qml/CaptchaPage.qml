@@ -34,10 +34,11 @@ DefaultPage {
         }
 
         StyledButton {
-            text: qsTr('<font color="%1">Refresh').arg(ColorScheme.highlighted)
+            text: qsTr('Refresh')
             implicitHeight: 20
             fond.border.width: 0
             fond.radius: 0
+            foreground.color: ColorScheme.highlighted
         }
     }
 }

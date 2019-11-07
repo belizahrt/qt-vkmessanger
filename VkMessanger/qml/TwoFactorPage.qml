@@ -43,10 +43,11 @@ DefaultPage {
         }
 
         StyledButton {
-            text: qsTr('<font color="%1">Send again').arg(ColorScheme.highlighted)
+            text: qsTr('Send again')
             implicitHeight: 20
             fond.border.width: 0
             fond.radius: 0
+            foreground.color: ColorScheme.highlighted
         }
     }
 }
