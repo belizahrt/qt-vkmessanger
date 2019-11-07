@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/DirectLoginPage.qml</file>
+        <file>qml/DefaultPage.qml</file>
+        <file>qml/StyledComponents/ColorScheme/ColorScheme.qml</file>
+        <file>qml/StyledComponents/ColorScheme/DarkTheme.qml</file>
+        <file>qml/StyledComponents/ColorScheme/LightTheme.qml</file>
+        <file>qml/StyledComponents/ColorScheme/Theme.qml</file>
+        <file>qml/StyledComponents/StyledButton.qml</file>
+        <file>qml/StyledComponents/StyledCheckBox.qml</file>
+        <file>qml/StyledComponents/StyledText.qml</file>
+        <file>qml/StyledComponents/CustomScrollBar.qml</file>
+        <file>qml/StyledComponents/CustomSwitch.qml</file>
+        <file>qml/StyledComponents/StyledTextField.qml</file>
+        <file>qml/DialogsPage.qml</file>
+        <file>qml/CaptchaPage.qml</file>
+        <file>qml/TwoFactorPage.qml</file>
+        <file>imgs/captcha.jpg</file>
+        <file>imgs/arrow.svg</file>
+        <file>imgs/mobile.svg</file>
+        <file>imgs/mute.svg</file>
+        <file>imgs/online.svg</file>
+        <file>imgs/refreshing.svg</file>
+    </qresource>
+</RCC>
